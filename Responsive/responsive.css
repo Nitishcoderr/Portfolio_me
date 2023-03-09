@@ -1,0 +1,317 @@
+@media only screen and (max-width : 1024px)
+{
+    .navbar_section{
+        position: relative;
+    }
+    .nav-list{
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.2s ease-in-out;
+    }
+    .nav-list.active{
+        left: 0%;
+    }
+    .nav-toggle{
+        display: block;
+    }
+    /* .nav-list{
+        display: none;
+    } */
+    /* intro */
+    ul{
+        background-color: white;
+    }
+    .intro-section{
+        flex-direction: column;
+    }
+    .intro-heading{
+        padding-left: 0px;
+    }
+    .intro-heading h1{
+        font-size: 3rem;
+    }
+    .intro-paragraph{
+    padding-left: 0px;
+    }
+    .intro-paragraph p{
+        font-size: 1rem;
+        padding-top: 10px;
+    }
+    .intro-button {
+        padding-top: 10px;
+    }
+    .intro-image img{
+        width: 31vw;
+        margin-left: 0px;
+    }    
+
+    /* about */
+    .profile{
+        padding-top:20px;
+        gap: 40px;
+    }
+    .profile-right h2{
+        font-size: 25px;
+        padding-right: 70px;
+    
+    }
+
+    /* info */
+    .my-info{
+        gap: 30px;
+        padding: 20px 20px;
+    }
+
+    /* doing section */
+    .doing-section{
+        margin-top: 10px;
+        padding-top:10px;
+    }
+    .doing-heading{
+        padding-bottom: 10px;
+    }
+    .doing-heading h1{
+        font-size: 24px;
+    }
+    .box{
+        height: 65vh;
+        width: 30vw;
+        line-height: 1.5;
+    }
+    
+
+    /* footer */
+footer{
+    gap: 30px;
+    padding:0px 10px;
+}
+.footer-left-section p{
+    color: white;
+    font-size: 16px;
+}
+.footer-right-section form{
+    flex-direction: column;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+}
+
+/* 768 */
+@media only screen and (max-width : 768px){
+    .intro-section{
+        flex-direction: column;
+    }
+    .intro-heading h1{
+        font-size: 2rem;
+    }
+    .intro-button {
+        padding-right: 0px;
+    }
+    .intro-button button{
+        padding: 12px 20px;
+        font-size: 20px;
+    }
+    .intro-image img{
+        width: 300px;
+    }    
+
+    /* .profile-section*/
+
+.profile h2{
+    font-size: 1.5rem;
+}
+.profile-paragraph p{
+    padding-top: 0px;
+}
+/* about */
+.profile{
+    flex-direction: column;
+    padding-top:10px;
+    gap: 20px;
+}
+.profile-right h2{
+    font-size: 30px;
+    padding-right: 0px;
+
+}
+.profile-image img{
+    width: 40vw;
+}
+
+/* info */
+.my-info{
+    gap: 0px;
+    flex-direction: column;
+    width: 70vw;
+    height: 45vh;
+}
+.email p{
+    font-size: 15px;
+}
+.role p{
+    font-size: 15px;
+}
+.phone p{
+    font-size: 15px;
+}
+.email h4{
+    text-align: center;
+    font-size: 20px;
+}
+.role h4{
+    text-align: center;
+    font-size: 20px;
+}
+.phone h4{
+    text-align: center;
+    font-size: 20px;
+}
+
+/* doing-section */
+.doing-heading{
+    padding-bottom: 10px;
+}
+.doing-heading h1{
+    font-size: 24px;
+}
+.box{
+    height: 65vh;
+    width: 300px;
+}
+.doing-box{
+    gap: 10px;
+}
+
+/* work section */
+
+.work-box{
+    padding-top: 10px 0px;
+    margin: 10px 10px;
+}
+
+.work-heading h1{
+    font-size: 34px;
+}
+.work-box-1 img{
+width: 320px;
+}
+.work-box-2 img{
+    width: 320px;
+}
+.work-box-3 img{
+    width: 320px;
+}
+.work-box-4 img{
+    width: 320px;
+}
+.work-box-5 img{
+    width: 320px;
+}
+.work-box-6 img{
+    width: 320px;
+}
+footer{
+    flex-direction: column-reverse;
+}
+}
+
+/* 425 */
+@media only screen and (max-width : 425px){
+    p{
+        font-size: 14px;
+    }
+    /* My introduction */
+.intro-heading{
+    padding-left: 0px;
+}
+.intro-heading h1{
+    font-size: 1.5rem;
+}
+.intro-paragraph p{
+    padding: 5px;
+    font-size: 14px;
+}
+.intro-button button{
+    padding: 12px 20px;
+    font-size: 15px;
+}
+.intro-image img{
+    width: 200px;
+    margin-left: 0px;
+}
+
+/* info */
+.my-info{
+    height: 200px;
+}
+.email p{
+    font-size: 10px;
+}
+.role p{
+    font-size: 10px;
+}
+.phone p{
+    font-size: 10px;
+}
+.email h4{
+    text-align: center;
+    font-size: 16px;
+}
+.role h4{
+    text-align: center;
+    font-size: 16px;
+}
+.phone h4{
+    text-align: center;
+    font-size: 16px;
+}
+}
+/* doing-section */
+.box{
+    width: 250px;
+    height: 350px;
+}
+.doing-box{
+    gap: 10px;
+}
+
+/* work section */
+.work-heading h1{
+    font-size: 24px;
+}
+.work-heading p{
+    font-size: 14px;
+    padding: 5px;
+}
+.work-box-1 img{
+width: 220px;
+}
+.work-box-2 img{
+    width: 220px;
+}
+.work-box-3 img{
+    width: 220px;
+}
+.work-box-4 img{
+    width: 220px;
+}
+.work-box-5 img{
+    width: 220px;
+}
+.work-box-6 img{
+    width: 220px;
+}
+.about-me h1{
+    font-size: 2rem;
+}
+.footer-left-section p{
+    font-size: 10px;
+}
+.footer-right-section form{
+    flex-direction: column;
+    border-radius: 20px;
+}

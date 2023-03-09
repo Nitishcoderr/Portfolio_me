@@ -1,0 +1,328 @@
+/* font-link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&family=Ubuntu:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* utility function */
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* navbar section */
+nav{
+    background-color: rgb(229, 238, 236);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo img{
+    width: 30px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+ul{
+    list-style: none;
+}
+.nav-list{
+    gap: 20px;
+}
+li a{
+    text-decoration: none;
+    margin:0px 15px;
+    font-size: 20px;
+    color: black;
+}
+li a:hover{
+    font-weight: 900;
+    color: rgb(255, 70, 70);
+}
+.nav-toggle{
+    display: none;
+}
+/* My introduction */
+.intro-section{
+    flex-direction: row;
+}
+.introduction{
+    flex-direction: column;
+    width: 100vw;
+}
+.intro-heading{
+    padding-left: 60px;
+}
+.intro-heading h1{
+    font-size: 5rem;
+}
+.intro-paragraph{
+padding-left: 50px;
+}
+.intro-paragraph p{
+    font-size: 1rem;
+    padding-top: 15px;
+}
+.intro-button {
+    padding-top: 10px;
+    padding-right: 120px;
+}
+.intro-button button{
+    padding: 12px 60px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin: 12px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}
+.intro-button button:hover{
+    font-weight: 900px;
+    background-color: rgb(255, 70, 70);
+    color: white;
+}
+/* .intro-image{
+    width: 50vw;
+} */
+.intro-image img{
+    width: 40vw;
+    margin-left: 120px;
+    border-radius: 20px;
+}
+/* about-section */
+
+/* .profile-section*/
+
+.profile h2{
+    font-size: 3.5rem;
+    text-align: center;
+}
+.profile-paragraph p{
+    padding-top: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+/* about */
+.profile{
+    padding-top:10px;
+    padding-left: 20px;
+    gap: 80px;
+}
+.profile-right{
+    line-height: 2;
+}
+.profile-right h2{
+    font-size: 30px;
+    padding-right: 170px;
+
+}
+.profile-right p{
+align-items: center;
+}
+.profile-image img{
+    width: 20vw;
+    border-radius: 100px;
+}
+.profile-details{
+    line-height: 2;
+}
+.social-media a i{
+    color: black;
+    margin: 10px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+/* about section */
+.about-section{
+    margin: 0 154px;
+    padding-top: 20px;
+}
+.about{
+    flex-direction: column;
+    line-height: 2;
+}
+
+.about-me h1{
+    /* text-align: center; */
+    padding-left: 10px;
+    font-size: 3rem;
+}
+.about-me p{
+    padding-left: 10px;
+}
+.about-me .blank{
+    width: 250px;
+    height: 10px;
+    background-color: brown;
+    align-items: center;
+}
+.about-image img{
+    width: 75vw;
+}
+.about-image p{
+    padding-left: 10px;
+    color: rgb(132, 4, 4);
+}
+/* info */
+.my-info{
+    gap: 180px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px 30px;
+    /* border: 2px solid black; */
+    background-color: rgb(219, 204, 204);
+    border-radius: 10px;
+    width: 90vw;
+    height: 30vh;
+    border-radius: 50px;
+}
+
+/* doing-section */
+.doing-section{
+    margin-top: 40px;
+    padding-top:20px;
+    background-color: gainsboro;
+    flex-direction: column;
+}
+.doing-heading{
+    padding-bottom: 80px;
+}
+.doing-heading h1{
+    font-size: 44px;
+}
+.box{
+    margin: 10px 50px;
+    height: 80vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.5;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.doing-box{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.box-1-img img{
+    width: 40px;
+}
+.box-2-img img{
+    width: 50px;
+}
+.box-3-img img{
+    width: 60px;
+}
+.box-4-img img{
+    width: 140px;
+}
+.box-5-img img{
+    width: 100px;
+}
+.box-6-img img{
+    width:90px;
+}
+
+/* work section */
+.my-work-section{
+    margin-top: 30px;
+    padding-top: 10px;
+    background-color: gainsboro;
+}
+.work-heading{
+    flex-direction: column;
+}
+.work-heading h1{
+    font-size: 44px;
+}
+.work-heading p{
+    font-size: 16px;
+    color: rgb(248, 7, 155);
+}
+.work-boxes{
+    flex-wrap: wrap;
+}
+.work-box{
+    padding: 10px 10px;
+    margin: 30px 30px;
+}
+.work-box-1 img{
+width: 520px;
+border-radius: 20px;
+}
+.work-box-2 img{
+    width: 520px;
+    border-radius: 20px;
+}
+.work-box-3 img{
+    width: 520px;
+    border-radius: 20px;
+}
+.work-box-4 img{
+    width: 520px;
+    border-radius: 20px;
+}
+.work-box-5 img{
+    width: 520px;
+    border-radius: 20px;
+}
+.work-box-6 img{
+    width: 520px;
+    border-radius: 20px;
+}
+/* footer */
+footer{
+    background-color: black;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding:0px 20px;
+}
+.footer-left-section p{
+    color: white;
+    font-size: 20px;
+}
+.footer-right-section form{
+    background-color: rgb(201, 232, 224);
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    padding-block: 10px;
+    padding-left: 10px;
+    margin-block: 10px;
+}
+.footer-right-section form button input{
+    padding: 2px 10px;
+    color: white;
+    background-color: black;
+}
+.submit{
+    padding-top: 10px;
+}
+.submit input{
+    background-color: black;
+    color: white;
+    cursor:pointer;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    
+}
+.submit input:hover{
+    background-color: rgb(234, 110, 110);
+    color: black;
+}
